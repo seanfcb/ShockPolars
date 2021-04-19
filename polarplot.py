@@ -28,9 +28,7 @@ delta2, Pr2, M3 = oblique(M2, sigma2, gamma)
 
 #
 plt.plot(delta1*180/np.pi,Pr1)
-#plt.plot(delta1*180/np.pi, M2)
-#plt.plot((delta_ramp-delta2)*180/np.pi,Pr2*Pr_ramp)
-plt.plot(sigma1, Pr1)
-plt.plot(sigma2, Pr2)
+plt.plot(delta1*180/np.pi, M2)
+plt.plot((delta_ramp-delta2)*180/np.pi,Pr2*Pr_ramp)
 
 plt.show()
